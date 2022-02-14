@@ -1,0 +1,3 @@
+C:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/cmake-build-debug/CMakeFiles/rebuild_cache.dir
