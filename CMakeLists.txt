@@ -3,4 +3,4 @@ project(problems)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled file.cpp "labka#1.cpp")
+add_executable(untitled "labka#1.cpp")
