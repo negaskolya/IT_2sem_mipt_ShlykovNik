@@ -31,7 +31,7 @@ double average_time_counter(int size)
 int main() {
     std::cout << "Size  average_time\n";
     int s = 1;
-    for(s = 1; s < 21; s += 2) {
+    for(s = 1; s < 51; s += 2) {
         std::cout << s << ";       " << average_time_counter(s) << "\n";
     }
     return 0;
