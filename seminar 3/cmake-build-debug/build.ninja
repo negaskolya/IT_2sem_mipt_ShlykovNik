@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/seminar$ 3/cmake
 
 build cmake_object_order_depends_target_seminar_3: phony || CMakeFiles/seminar_3.dir
 
-build CMakeFiles/seminar_3.dir/labka1.2.cpp.obj: CXX_COMPILER__seminar_3_Debug C$:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/seminar$ 3/labka1.2.cpp || cmake_object_order_depends_target_seminar_3
-  DEP_FILE = CMakeFiles\seminar_3.dir\labka1.2.cpp.obj.d
+build CMakeFiles/seminar_3.dir/labka1.3.cpp.obj: CXX_COMPILER__seminar_3_Debug C$:/Users/Toshiba/IT_2sem_mipt_ShlykovNik/seminar$ 3/labka1.3.cpp || cmake_object_order_depends_target_seminar_3
+  DEP_FILE = CMakeFiles\seminar_3.dir\labka1.3.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\seminar_3.dir
   OBJECT_FILE_DIR = CMakeFiles\seminar_3.dir
@@ -63,7 +63,7 @@ build CMakeFiles/seminar_3.dir/labka1.2.cpp.obj: CXX_COMPILER__seminar_3_Debug C
 #############################################
 # Link the executable seminar_3.exe
 
-build seminar_3.exe: CXX_EXECUTABLE_LINKER__seminar_3_Debug CMakeFiles/seminar_3.dir/labka1.2.cpp.obj
+build seminar_3.exe: CXX_EXECUTABLE_LINKER__seminar_3_Debug CMakeFiles/seminar_3.dir/labka1.3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\seminar_3.dir

@@ -7,7 +7,7 @@ void rand_placing(int N, int coord[])
     for(i = 0; i < N; i++) {
         std::random_device dev;
         std::mt19937 rng(dev());
-        std::uniform_int_distribution<int> dist(-20, 20);
+        std::uniform_int_distribution<int> dist(-50, 50);
         coord[i] = dist(rng);
     }
 }
@@ -24,7 +24,7 @@ void boundaries_checking(int x_coord[], int conditions[], int N)
 {
     int i = 0;
     for (i = 0; i < N; i++) {
-        if (abs(x_coord[i]) < 6)
+        if (abs(x_coord[i]) < 50)
             conditions[i] = 1;
         else {
             conditions[i] = 0;
@@ -95,14 +95,14 @@ int time_freezing(int N)
 double average_time_freezing(int N){
     int i;
     double time = 0;
-    for(i = 0; i < 100; i++)
+    for(i = 0; i < 200; i++)
         time = time + time_freezing(N);
     return time / 100;
 }
 
 int main(){
     int N;
-    for(N = 1; N < 10; N++) {
-        std::cout << N << ";       " << average_time_freezing(N) << "\n";
+    for(N = 1; N < 40; N++) {
+        std::cout << average_time_freezing(N) << ", ";
     }
 }
