@@ -22,6 +22,7 @@ void print_array(int array[], int n){
         std::cout << array[i] << ' ';
 }
 
+
 int main() {
     int array[] = {2, 5, 3, 8, 1, 10, 20, -1}, n = 8;
     select_sort(array, n);
